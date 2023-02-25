@@ -1,0 +1,138 @@
+:root {
+  --main-header-font: "Playfair Display", serif;
+  --header-font: "Poppins", sans-serif;
+  --bg-color: #f9f7fe;
+  --btn-color: #6c63ff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  padding: 0 30px;
+}
+
+.header-content {
+  text-align: center;
+  background-color: var(--bg-color);
+  margin: 0;
+  padding: 30px 0 160px 0;
+}
+
+.header-content p {
+  font-family: var(--header-font);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: var(--main-header-font);
+  font-size: 96px;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.btn {
+  background-color: var(--btn-color);
+  color: white;
+  border-radius: 4px;
+  padding: 18px 30px;
+  line-height: 27px;
+  width: 150px;
+  height: 63px;
+}
+
+.row h1 {
+  font-size: 50px;
+  margin-top: 150px;
+}
+
+.section-title {
+  margin: 70px 0;
+}
+
+.btn-section {
+  color: var(--btn-color);
+  border: 1px solid var(--btn-color);
+  border-radius: 4px;
+  padding: 18px 30px;
+  line-height: 27px;
+}
+
+.bcolor {
+  background-color: var(--bg-color);
+  padding-left: 0;
+  margin-top: 40px;
+}
+
+#header-footer {
+  margin: 49px 0 0 119px;
+}
+
+#paragraph-footer {
+  margin: 15px 0 42px 119px;
+}
+
+.btn-footer {
+  background-color: var(--btn-color);
+  color: white;
+  border-radius: 4px;
+  line-height: 27px;
+  padding: 18px 38px;
+}
+#button-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email {
+  text-align: center;
+  font-size: 24px;
+  font-family: var(--header-font);
+}
+
+.contact-me {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+  .row h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 80px;
+  }
+  .row p {
+    line-height: 2;
+  }
+
+  .btn-section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 155px;
+  }
+  .main-nav li {
+    padding: 6px;
+  }
+}
