@@ -87,6 +87,7 @@ h2 {
 
 #paragraph-footer {
   margin: 15px 0 42px 119px;
+  /* text-align: center; */
 }
 
 .btn-footer {
@@ -111,6 +112,15 @@ h2 {
 .contact-me {
   display: flex;
   justify-content: center;
+}
+@media (min-width: 576px) {
+  #header-footer {
+    margin: 49px 0 0 119px;
+  }
+
+  #paragraph-footer {
+    margin: 15px 0 42px 119px;
+  }
 }
 
 @media (max-width: 900px) {
